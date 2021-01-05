@@ -1,0 +1,102 @@
+@import url(//fonts.googleapis.com/earlyaccess/tharlon.css);
+
+////////// FIREFOX /////////////////////
+:root {
+    scrollbar-color: #022c43 transparent;
+    scrollbar-width: thin;
+  }
+/////////////////////////////////////////
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 5px;
+    background-color: transparent;
+    // padding: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #022c43;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Trispace', sans-serif;
+    background: #000;
+
+    .font-100 {
+        font-weight: 100;
+    }
+    .font-200 {
+        font-weight: 200;
+    }
+    .font-300 {
+        font-weight: 300;
+    }
+    .font-400 {
+        font-weight: 400;
+    }
+    .font-500 {
+        font-weight: 500;
+    }
+    .font-600 {
+        font-weight: 600;
+    }
+    .font-700 {
+        font-weight: 700;
+    }
+    .font-800 {
+        font-weight: 800;
+    }
+
+    .container {
+        width: 1200px;
+        max-width: 100%;
+    }
+
+    .activeMenu {
+        color: #ffd700 !important;
+    }
+
+    .top-headroom {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+
+        .headroom {
+            z-index: 6 !important;
+        }
+
+        .headroom--pinned {
+            z-index: 9999;
+            .header {
+                background: #000 !important;
+                padding-top: 0.5rem !important;
+                padding-bottom: 0.5rem !important;
+            }
+        }
+    }
+
+    .hover-imgs {
+        &:hover {
+            img {
+                opacity: 1 !important;
+                transition: '0.3s ease'
+            }
+        }
+    }
+
+    .bg-effect {
+        &:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            background-image: radial-gradient(transparent,rgba(0,0,0,0.5),rgba(0,0,0,0.7),#000);
+        }
+    }
+}
