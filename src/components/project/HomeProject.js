@@ -4,7 +4,7 @@ import BS from '../../assets/images/bs.png'
 import FTP from '../../assets/images/ftp.png' 
 import JM from '../../assets/images/jm.jpg' 
 import BBG from '../../assets/images/bbg.jpg'
-import MYNET from '../../assets/images/mynet.jpg'
+import MYNET from '../../assets/images/myneth.jpg'
 import { Link } from 'react-router-dom'
 import AOS from 'aos'
 
