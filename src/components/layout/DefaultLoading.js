@@ -21,7 +21,7 @@ const DefaultLoading = () => {
                 right: 0,
                 bottom: 0,
                 zIndex: 999999,
-                background: 'rgba(2,44,67,0.95)'
+                background: '#000'
             }}
         >
             <div className="d-table w-100 h-100 position-relative">
