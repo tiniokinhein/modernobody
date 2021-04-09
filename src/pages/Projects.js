@@ -13,11 +13,19 @@ import AC from '../assets/images/ac.jpg'
 import JIT from '../assets/images/jit.jpg'
 import SSDSW from '../assets/images/ssdsw.jpg'
 import DSW from '../assets/images/dsw.jpg'
+import MYNET from '../assets/images/mynet.jpg'
 import AOS from 'aos'
 import Layout from '../components/layout/Layout'
 
 
 const data = [
+    {
+        "title": "Mynet Solutions",
+        "image": MYNET,
+        "color": "#363090",
+        "height": "300px",
+        "link": "https://mynetsolutions.net"
+    },
     {
         "title": "Frontier Technology Partners",
         "image": FTP,
